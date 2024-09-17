@@ -647,7 +647,12 @@ iframe {
   .mobile-menu {
     display: block;
   }
-
+  .mobile-menu .mobile-menu-items {
+    padding: 0.6rem;
+  }
+  .mobile-menu .mobile-menu-list {
+    gap: 0.25rem;
+  }
   .chapter-cards {
     grid-template-columns: 1fr;
   }
@@ -692,12 +697,7 @@ iframe {
   section .container {
     padding: 1.5rem;
   }
-  .mobile-menu .mobile-menu-items {
-    padding: 0.6rem;
-  }
-  .mobile-menu .mobile-menu-list {
-    gap: 0.25rem;
-  }
+  
   .topics {
     grid-template-columns: 1fr;
   }
